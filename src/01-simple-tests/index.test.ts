@@ -45,7 +45,7 @@ describe('simpleCalculator tests', () => {
       { a: 3, b: 5, action: undefined },
     ];
 
-    invalidInputs.forEach(input => {
+    invalidInputs.forEach((input) => {
       const result = simpleCalculator(input);
       expect(result).toBeNull();
     });
